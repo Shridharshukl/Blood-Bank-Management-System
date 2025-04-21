@@ -1,35 +1,79 @@
-# :drop_of_blood: Blood-Bank-Management-System 
-This website acts like a medium/an intermediate between hospitals/clinics and donors/receivers.
+# 🩸 Blood Bank Management System
 
-## Basic functionalities:
-This project is created for two users: Donors/Receivers and Hospitals/Clinics(Doctors), where a Hospital user can add blood sample to their blood bank, request for blood, check status of their request, update their details, etc. The donor/receiver can also do the same.
- 
-## :information_source: Languages/technologies used:
-1. Frontend: HTML, CSS, Bootstrap, JavaScript.
-2. Backend: Database-MySQL.
-3. Frontend-Backend connection: PHP.
+A web application that acts as a bridge between **hospitals/clinics** and **blood donors/receivers**. It simplifies the process of blood donation, requests, and inventory management.
 
-## :exclamation: Requirements
-1. Xampp Software
-2. Sublime text/Visual studio code software or any software supporting php, html, css
-3. Java Jdk
+---
 
-## :question: How to start?
-1. Download this code as a zip file.
-2. Place this entire folder in htdocs, in xampp(xampp path, installed as per your installation). 
-3. Open Xampp server, start Apache, MySQL.
-4. In the MySQL row, select Admin.
-5. Create a database with name "bloodbank" in phpmyadmin. Import the sql file from sql folder.
-6. Open main.php in Sublime text/Visual studio code, on right click copy file path.
-7. Paste it on any web browser and clear everything before folder name, type "localhost".
-8. Ready to go!
- 
-## :information_source: The file named:
-1. 'css' contains the files for the front end pages style.
-2. 'file' contains the files for the backend connections.
-3. 'image' and 'jastimage' contains images used in the front end.
-4. 'sql' contains the database file that has to be imported.
+## 🚀 Features
 
-## If you liked the project and found it helpful
-Give a start 😄:star:
+### 👨‍⚕️ For Hospitals/Clinics (Doctors)
+
+- Add blood samples to the blood bank
+- Request blood units
+- Track the status of requests
+- Update hospital details
+
+### 🧑‍🤝‍🧑 For Donors/Receivers
+
+- Register and manage user profile
+- Donate or request blood
+- Track donation/request history
+
+---
+
+## 💠 Technologies Used
+
+| Layer        | Tools Used                       |
+| ------------ | -------------------------------- |
+| Frontend     | HTML, CSS, Bootstrap, JavaScript |
+| Backend      | PHP                              |
+| Database     | MySQL                            |
+| DevOps/Infra | Docker, Docker Compose           |
+
+---
+
+## 📦 Requirements
+
+- [Docker](https://docs.docker.com/get-docker/)
+- [Docker Compose](https://docs.docker.com/compose/install/)
+- Code Editor (e.g. VS Code, Sublime Text)
+
+---
+
+## 🧪 Getting Started
+
+1. **Clone the repository:**
+
+   ```bash
+   git clone https://github.com/Shridharshukl/Blood-Bank-Management-System.git
+   cd Blood-Bank-Management-System
+   ```
+
+2. **Start the application with Docker Compose:**
+
+   ```bash
+   docker-compose up --build
+   ```
+
+3. **Access the app:**
+   Open your browser and visit [http://localhost:8000](http://localhost:8000)
+
+---
+
+## 📁 Project Structure
+
+| Folder/File          | Description                                  |
+| -------------------- | -------------------------------------------- |
+| `css/`               | Frontend stylesheets (CSS)                   |
+| `file/`              | Backend PHP logic and database connections   |
+| `image/`             | Images used in frontend                      |
+| `jastimage/`         | Additional image assets                      |
+| `sql/`               | SQL file to auto-import into MySQL container |
+| `docker-compose.yml` | Defines Docker services                      |
+
+---
+
+## ❤️ Like this project?
+
+If you found this project helpful, consider giving it a ⭐ on GitHub — it motivates and supports open-source contributions!
 
